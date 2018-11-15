@@ -62,6 +62,7 @@ void traversequeue(int n)
 
     }
 }
+
 int deleteq(int n)
 {
     if(f==-1&&r==-1)
@@ -78,7 +79,7 @@ int deleteq(int n)
     }
     else if(f==n-1)
     {
-        f=0;
+          f=0;
     }
     else
     {
